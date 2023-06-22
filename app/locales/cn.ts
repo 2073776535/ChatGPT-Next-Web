@@ -8,7 +8,7 @@ const cn = {
   }，
   Auth: {
     Title: "需要密码"，
-    Tips: "管理员开启了密码验证，请在下方填入访问码"，
+    Tips: "管理员开启了密码验证，请关注极客G微信公众号回复密码获取，请在下方填入访问码"，
     Input: "在此处填写访问码"，
     Confirm: "确认"，
     Later: "稍后再说"，
@@ -34,57 +34,57 @@ const cn = {
         auto: "自动主题"，
         light: "亮色模式"，
         dark: "深色模式"，
-      },
-      Prompt: "快捷指令",
-      Masks: "所有面具",
-      Clear: "清除聊天",
-      Settings: "对话设置",
-    },
-    Rename: "重命名对话",
-    Typing: "正在输入…",
+      }，
+      Prompt: "快捷指令"，
+      Masks: "所有面具"，
+      Clear: "清除聊天"，
+      Settings: "对话设置"，
+    }，
+    Rename: "重命名对话"，
+    Typing: "正在输入…"，
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
       return inputHints + "，/ 触发补全";
-    },
-    Send: "发送",
+    }，
+    Send: "发送"，
     Config: {
-      Reset: "清除记忆",
-      SaveAs: "存为面具",
-    },
-  },
+      Reset: "清除记忆"，
+      SaveAs: "存为面具"，
+    }，
+  }，
   Export: {
-    Title: "分享聊天记录",
-    Copy: "全部复制",
-    Download: "下载文件",
-    Share: "分享到 ShareGPT",
-    MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    Title: "分享聊天记录"，
+    Copy: "全部复制"，
+    Download: "下载文件"，
+    Share: "分享到 ShareGPT"，
+    MessageFromYou: "来自你的消息"，
+    MessageFromChatGPT: "来自 ChatGPT 的消息"，
     Format: {
-      Title: "导出格式",
-      SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
-    },
+      Title: "导出格式"，
+      SubTitle: "可以导出 Markdown 文本或者 PNG 图片"，
+    }，
     IncludeContext: {
-      Title: "包含面具上下文",
-      SubTitle: "是否在消息中展示面具上下文",
-    },
+      Title: "包含面具上下文"，
+      SubTitle: "是否在消息中展示面具上下文"，
+    }，
     Steps: {
-      Select: "选取",
-      Preview: "预览",
-    },
-  },
+      Select: "选取"，
+      Preview: "预览"，
+    }，
+  }，
   Select: {
-    Search: "搜索消息",
-    All: "选取全部",
-    Latest: "最近几条",
-    Clear: "清除选中",
-  },
+    Search: "搜索消息"，
+    All: "选取全部"，
+    Latest: "最近几条"，
+    Clear: "清除选中"，
+  }，
   Memory: {
-    Title: "历史摘要",
-    EmptyContent: "对话内容过短，无需总结",
-    Send: "自动压缩聊天记录并作为上下文发送",
+    Title: "历史摘要"，
+    EmptyContent: "对话内容过短，无需总结"，
+    Send: "自动压缩聊天记录并作为上下文发送"，
     Copy: "复制摘要",
     Reset: "[unused]",
     ResetConfirm: "确认清空历史摘要？",
